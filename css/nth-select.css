@@ -1,3 +1,7 @@
-.boxes div:nth-child(3) {
-  background-color: turquoise;
+
+
+.boxes div:nth-child(3n+1) {
+  background-color: #579175;
+  border: 2px solid #579175;
+  box-shadow: 0px 0px 10px 10px #294538;
 }

@@ -1,42 +1,53 @@
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: #003881;
+  color: white;
+}
+p {
+  margin-bottom: 0px;
+  letter-spacing: 2.5px;
+  text-transform: lowercase;
 }
 
-h1 {
+/* Main Styling */
+.title {
   text-align: center;
-  padding: 10%;
+  padding-top: 10%;
+}
+.title h1 {
+  font-size: 50px;
+}
+.parent-name {
+  text-align: center;
+  position: relative;
+  top: 50px;
 }
 
+.container:not(.boxes) {
+  position: absolute;
+  bottom: 5px;
+}
+
+/* Box Parent Styling */
 .boxes {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.boxes p {
-  font-size: 32px;
-  font-weight: 700;
-  color: white;
-}
-.box {
   border: 2px solid black;
-  padding: 10%;
-  margin: 20px;
+  padding: 5%;
+  margin-top: 5%;
+  background-color: #3871BB;
+}
+.boxes {
+font-weight: bold;
+}
+
+/* Box Child Styling */
+.box {
+  border: 2px solid white;
+  padding: 2%;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 16px;
   font-weight: 700;
 }
-
-.box-1 {
-  background-color: red;
-}
-.box-2 {
-  background-color: blue;
-}
-.box-3 {
-  background-color: green;
-}
-.box-4 {
-  background-color: purple;
-}
-
-/* .boxes div:nth-child(3) {
-  background-color: turquoise;
-} */
