@@ -1,6 +1,6 @@
 
 
-.boxes div:nth-child(3n+1) {
+.boxes div:nth-child(8n+1) {
   background-color: #579175;
   border: 2px solid #579175;
   box-shadow: 0px 0px 10px 10px #294538;
